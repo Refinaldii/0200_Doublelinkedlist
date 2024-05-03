@@ -10,6 +10,7 @@ struct Node
 	Node* next;
 	Node* prev;
 };
+Node* START = NULL;
 int main()
 {
     std::cout << "Hello World!\n";
