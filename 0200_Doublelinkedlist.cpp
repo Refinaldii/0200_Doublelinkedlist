@@ -13,8 +13,9 @@ struct Node
 Node* START = NULL;
 
 void addNode(){
-	Node* newNode = new Node();//step 1: create a new node
-	
+	Node* newNode = new Node();
+	cout << "\nEnter the roll number of the student : ";
+	cin >> newNode->noMhs;
 }
 int main()
 {
