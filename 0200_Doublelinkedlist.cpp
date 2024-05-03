@@ -54,6 +54,10 @@ void addNode(){
 		}
 	}
 }
+bool search(int rollNo, Node** previous, Node** current) {
+
+}
+
 int main()
 {
     std::cout << "Hello World!\n";
