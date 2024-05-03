@@ -33,6 +33,8 @@ void addNode(){
 		START = newNode;
 	}
 	else {
+		Node* current = START;
+		Node* previous = NULL;
 
 	}
 }
